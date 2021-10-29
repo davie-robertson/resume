@@ -12,10 +12,11 @@
 
 <body class="font-sans antialiased w-full">
   <div class="container mx-auto max-w-screen-xl">
-    <main id="wrapper" class="flex flex-col sm:flex-row-reverse sm:m-12 shadow-2xl">
-      <div id="sidebar" class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white">
+    <main id="wrapper" class="wrapper flex flex-col sm:flex-row-reverse sm:m-12 shadow-2xl">
+      <div id="sidebar" class="sidebar w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white">
         <div class="px-2 mb-12">
-          <img src="./assets/davie.jpg" alt="Profile Picture" class="rounded-full w-48 mx-auto mb-2" />
+          <img id="Profile-Picture" src="./assets/davie.jpg" alt="Profile Picture"
+            class="rounded-full w-48 mx-auto mb-2" />
           <h1 class="text-center text-3xl font-semibold mb-2">David Robertson</h1>
           <h2 class="text-center text-xl font-light">Chief Digital Officer | CIO | CTO</h2>
         </div>
@@ -68,7 +69,7 @@
           </div>
           <div class="flex items-center my-3">
             <img src="./assets/logo-twitter.svg" class="inline w-6 mr-4" alt="Twitter Logo" />
-            <a href="#" target="_blank" rel="noopener noreferrer">@twitter_handle</a>
+            <a href="https://twitter.com/DavieInTheSun" target="_blank" rel="noopener noreferrer">@DavieInTheSun</a>
           </div>
           <div class="flex items-center my-3">
             <img src="./assets/logo-codepen.svg" class="inline w-6 mr-4" alt="CodePen Logo" />
@@ -118,12 +119,12 @@
             <li>
               <div>Infrastructure / Hosting / DB</div>
               <p class="leading-8">
-                <span class="rounded-xl bg-gray-300 px-3">AWS</span>
-                <span class="rounded-xl bg-gray-300 px-3">Vercel</span>
-                <span class="rounded-xl bg-gray-300 px-3">Heroku</span>
-                <span class="rounded-xl bg-gray-300 px-3">DynamoDB</span>
-                <span class="rounded-xl bg-gray-300 px-3">MongoDB</span>
-                <span class="rounded-xl bg-gray-300 px-3">SQLite</span>
+                <span class="technology">AWS</span>
+                <span class="technology">Vercel</span>
+                <span class="technology">Heroku</span>
+                <span class="technology">DynamoDB</span>
+                <span class="technology">MongoDB</span>
+                <span class="technology">SQLite</span>
               </p>
             </li>
           </ul>
@@ -144,99 +145,165 @@
         </div>
       </div>
       <div class="content w-full p-12">
-        <div id="profile" class="prose">
-          <h2 class="section-headline">Profile</h2>
-          <p>
-            Chief Digital Information Officer with over 25 years of experience in delivering transformational IS
-            services and digital solutions globally for leading AEC and transportation companies (<a
-              href="https://www.wsp.com/en-US/news/2018/louis-berger-is-now-part-of-wsp">Louis Burger</a>, <a
-              href="https://www.atkinsglobal.com/homepage">WS Atkins</a>,
-            & <a href="https://www.theemiratesgroup.com/">Emirates</a>) – spent the last 3 years as the Managing Partner
-            and Chief Digital Officer of a leading digital
-            agency delivering modern applications and platforms for large enterprises and government clients.
+        <div id="my-profile" class="prose">
+          <h2 class="section-headline">Summary</h2>
+          <p>A <b>well-seasoned Group Chief Information Technology & Digital Officer</b> with <b>over 30 years</b> of
+            <b>global
+              leadership, strategic</b> and <b>technical expertise. Strong leader</b> with the ability to <b>switch
+              between</b> a <b>strategic</b>
+            and <b>tactical mindset</b>, within <b>highly competitive international markets</b>.
           </p>
-          <p>
-            Expert at delivering systems of differentiation with exemplar citizen, customer, and employee experiences;
-            ROI and innovation on technology investments; organisational change management; <a
-              href="https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf">DevSecOps
-              best practices</a>.
+          <b>Plays</b> an <b>advisory focused role</b>, in addition to <b>partnering</b> with the <b>Board</b> and
+          <b>C-suite executive management
+            teams</b>. <b>Seasoned</b> in <b>setting out global multi-million dollar technology investment
+            strategies</b>.
+
+          <p>Is a <b>trusted</b> and the <b>go-to-expert</b>, with a <b>clear focus</b> on <b>ROI</b> for <b>‘first to
+              market’ technology programmes</b>.
+            <b>Focuses</b> on <b>driving innovation</b>, <b>business value</b> and <b>technology revolutions</b>.
+          </p>
+          <p>A <b>‘visionary’ and ‘change catalyst’ by nature</b>, who <b>challenges</b> the <b>status quo</b> and
+            <b>scouts</b> for <b>continuous
+              improvement opportunities</b>.
+          </p>
+          <p>A <b>‘people leader’</b>, who <b>effectively communicates</b>, <b>manages</b> and <b>leads by example</b>.
+            Has <b>extensive experience</b> in
+            <b>restructuring</b> and <b>transforming under performing teams</b>; <b>sets up</b> and <b>manages complex
+              reporting matrices</b>.
+            <b>Creates</b> working <b>environments</b> that <b>champion creativity</b>, <b>best practice</b> and
+            <b>business excellence</b>.
           </p>
         </div>
         <hr class="mt-8 mb-12" />
-        <div id="experience" class="prose">
+        <div id="my-experience" class="prose">
           <h2 class="section-headline">Experience</h2>
           <div>
-            <h3>AppsIntegra LLC</h3>
+            <h3>Chief Digital Officer & Managing Partner</h3>
             <section class="mb-6">
               <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                Oct.&nbsp;2017 - Jul.&nbsp;2021:
+                2017 - 2021
               </div>
               <div class="lg:inline-block lg:w-8/12 w-full">
-                Chief Digital Officer | CEO
+                AppsIntegra LLC, Dubai – UAE.
+              </div>
+            </section>
+            <section class="mb-6">
+              <ul>
+                <li>Responsible for the set up and development of a market leading digital solution delivery agency,
+                  that focused on the development and execution of country-level digital transformation projects.</li>
+                <li>Clearly defined the business vision, operating frameworks, set key performance objectives and
+                  drove aggressive growth plans. Full company P&L responsibility and managed a team of 70+ engineers.
+                </li>
+                <li>Created ‘first to market’ innovative products across all digital platforms and in accordance with
+                  agile methodologies and DevSecOps best practice.</li>
+                <li>Business partnered with clients, analysed their requirements, and provided senior level counsel
+                  that translated concepts into impactful products.</li>
+                <li>Led complex projects that focused on disrupting customer behaviour, traditional markets and
+                  optimised the user experience.</li>
+                <li>Spearheaded research and data-driven insight programmes that developed real-time market data and
+                  insight, which drove the evolution of global market changing products.</li>
+                <li>Entwined the latest digital technologies and industry trends across all commercial remits.</li>
+              </ul>
+            </section>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                About:
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                AppsIntegra is a Dubai based digital studio driven by the creation of unique, distinctive and memorable
+                solutions and experiences. A team of talented and passionate designers, developers & engineers provide
+                clients with the most innovative and unique design and development approaches using the latest modern
+                technologies.
               </div>
             </section>
             <section class="mb-6">
               <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                Task:
+                Technologies:
               </div>
               <div class="lg:inline-block lg:w-8/12 w-full">
-                Strategic leadership, business development, management, and operational oversight of a team of 72
-                professionals that I recruited to deliver digital solutions using agile methodologies and DevSecOps best
-                practices
+                <span class="technology">Web Components (Lit)</span>
+                <span class="technology">JavaScript</span>
+                <span class="technology">TypeScript</span>
+                <span class="technology">Flutter</span>
+                <span class="technology">BPMN</span>
+                <span class="technology">Kubernetes</span>
+                <span class="technology">Containerisation</span>
+                <span class="technology">Camunda</span>
+                <span class="technology">Hasura</span>
+                <span class="technology">IOS, Android & PWA apps</span>
+                <span class="technology">AWS</span>
+                <span class="technology">Google Firebase</span>
+                <span class="technology">Postgres</span>
+                <span class="technology">React</span>
+                <span class="technology">Alibaba Cloud</span>
+                <span class="technology">Azue Cloud</span>
+                <span class="technology">SonarQube</span>
+                <span class="technology">CI/CD</span>
+                <span class="technology">Moodle LMS</span>
+                <span class="technology">Serverless</span>
+                <span class="technology">Keycloak</span>
+                <span class="technology">Woo Commerce</span>
+                <span class="technology">LiDAR</span>
+                <span class="technology">Phaser Game Engine</span>
+                <span class="technology">Woo Commerce</span>
+                <span class="technology">GraphQL</span>
+                <span class="technology">A-Frame</span>
+                <span class="technology">IoT</span>
+                <span class="technology">Sigfox</span>
+                <span class="technology">Unity Game Engine</span>
+                <span class="technology">Augmented Reality</span>
+                <span class="technology">Shopify (headless)</span>
+
               </div>
             </section>
             <section class="mb-6">
               <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                Description:
+                Projects:
               </div>
               <div class="lg:inline-block lg:w-8/12 w-full">
-                £5M pa award winning digital transformation specialists and strategic partners in the delivery of Abu
-                Dhabi government’s TAMM project. Recognised as pioneers in delivering a unified approach to UI/UX,
-                Software Engineering and DevSecOps
-              </div>
-            </section>
-            <section class="mb-6">
-              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                Tools:
-              </div>
-              <div class="lg:inline-block lg:w-8/12 w-full">
-                <span class="rounded-xl bg-gray-300 px-3">Web Components</span>
-                <span class="rounded-xl bg-gray-300 px-3">Kubernetes</span>
-                <span class="rounded-xl bg-gray-300 px-3">Camunda</span>
-                <span class="rounded-xl bg-gray-300 px-3">Hasura</span>
-                <span class="rounded-xl bg-gray-300 px-3">PWA</span>
-                <span class="rounded-xl bg-gray-300 px-3">AWS</span>
-                <span class="rounded-xl bg-gray-300 px-3">Firebase</span>
-                <span class="rounded-xl bg-gray-300 px-3">Postgres</span>
-                <span class="rounded-xl bg-gray-300 px-3">React</span>
-                <span class="rounded-xl bg-gray-300 px-3">Alibaba Cloud</span>
-                <span class="rounded-xl bg-gray-300 px-3">Shopify</span>
+                <span class="technology">TAMM (Abu Dhabi)</span>
+                <span class="technology">Mental Health well-being Platform</span>
+                <span class="technology">NRTC Fruit & Vegetables</span>
+                <span class="technology">Building Management System Dashboard</span>
+                <span class="technology">API Orchestration</span>
+                <span class="technology">Arabee Learning</span>
+                <span class="technology">National Scholarship Platform</span>
+                <span class="technology">Orphan Charity</span>
+                <span class="technology">FlyDubai Cloud Migration</span>
+                <span class="technology">NESSA social ecommerce platform</span>
+                <span class="technology">Prescription devliery</span>
               </div>
             </section>
           </div>
           <div>
-            <h3>Louis Berger International</h3>
+            <h3>Global Chief Information Officer</h3>
             <section class="mb-6">
               <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                Sep.&nbsp;2013 - Jun.&nbsp;2017:
+                2013 - 2017
               </div>
               <div class="lg:inline-block lg:w-8/12 w-full">
-                Chief Information Officer
+                Louis Berger International
               </div>
             </section>
             <section class="mb-6">
-              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                Task:
-              </div>
-              <div class="lg:inline-block lg:w-8/12 w-full">
-                Managed and directed a matrix of IT teams inhouse, nearshore and offshore to build, support, secure
-                and enhance operations across UK, Europe, West Africa, Middle East, Asia, and Latin America for
-                projects to the value of $22B
-              </div>
+              <ul>
+                <li>Key member of the Executive Management team. Set out the global information technology and digital
+                  investment strategies. Ensured all programmes were ‘fit for purpose’ and exceeded ROI benchmarks.</li>
+                <li>Responsible for the development and execution of the Information technology and digitalisation
+                  programmes that focused on the optimisation of stability, security, scalability, and speed.</li>
+                <li>Translated business–wide requirements into innovative change management and business process
+                  re-engineering programmes. Built and managed a local and remote team of 150 engineers and developers.
+                </li>
+                <li>Spearheaded global change management initiatives and synchronized major transformational &
+                  technology modernisation programmes, across the UK, Europe, Africa, Asia and Latin America. </li>
+                <li>Ensured commercial alignment and harmonisation across a wide range of optimisation projects; such as
+                  the development of dashboards, robotic process automations, PMIS & collaboration platforms and ERP
+                  enhancements.</li>
+              </ul>
             </section>
             <section class="mb-6">
               <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                Description:
+                About:
               </div>
               <div class="lg:inline-block lg:w-8/12 w-full">
                 Louis Berger is an Engineering News-Record top-20 ranked, $1 billion global professional services
@@ -246,23 +313,171 @@
             </section>
             <section class="mb-6">
               <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-                Tools:
+                Technologies:
               </div>
               <div class="lg:inline-block lg:w-8/12 w-full">
-                <span class="rounded-xl bg-gray-300 px-3">BIM</span>
-                <span class="rounded-xl bg-gray-300 px-3">Deltek</span>
-                <span class="rounded-xl bg-gray-300 px-3">Sharepoint</span>
-                <span class="rounded-xl bg-gray-300 px-3">MS Teams</span>
-                <span class="rounded-xl bg-gray-300 px-3">Primavera P6</span>
-                <span class="rounded-xl bg-gray-300 px-3">Deltek</span>
-                <span class="rounded-xl bg-gray-300 px-3">Active Directory</span>
+                <span class="technology">SharePoint</span>
+                <span class="technology">Intranet</span>
+                <span class="technology">Extranet</span>
+                <span class="technology">ProjectWise</span>
+                <span class="technology">.net</span>
+                <span class="technology">RevIT</span>
+                <span class="technology">Aconex</span>
+                <span class="technology">NewForma</span>
+                <span class="technology">Web Services</span>
+                <span class="technology">CMS</span>
+                <span class="technology">Qlikview</span>
+                <span class="technology">BIM</span>
+                <span class="technology">Progressive Web Apps</span>
+                <span class="technology">Workflow</span>
+                <span class="technology">IoT</span>
 
               </div>
             </section>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                Projects:
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                <span class="technology">Doha Metro</span>
+                <span class="technology">Warner Bros. Theme Park</span>
+                <span class="technology">Riyhad Metro</span>
+                <span class="technology">Madinah Metro</span>
+                <span class="technology">Domain Unification</span>
+                <span class="technology">AWS</span>
+                <span class="technology">Firebase</span>
+                <span class="technology">Postgres</span>
+                <span class="technology">React</span>
+                <span class="technology">Alibaba Cloud</span>
+                <span class="technology">Shopify</span>
+              </div>
+            </section>
+          </div>
+          <div>
+            <h3>Regional Chief Information Officer</h3>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                2005 - 2013
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                WS Atkins & Partners Overseas, Dubai – UAE.
+              </div>
+            </section>
+            <section class="mb-6">
+              <ul>
+                <li>Integral member of the Senior Executive team. Focused on the delivery of the corporate vision
+                  through the use of appropriate technologies, effective agile processes and the development of highly
+                  effective teams.</li>
+                <li>Responsible for the overall definition, direction, and vision of IT & digitalisation hubs, at both
+                  global and local levels. </li>
+                <li>Audited and analysed the full IT and technology internal ecosystem. Designed applications that
+                  focused on the improvement of system performance, security and automation that supported commercial
+                  efficiencies.</li>
+                <li>Responsible for the full programme delivery lifecycle. Developed governance frameworks and mitigated
+                  risks that ensured all projects were delivered on time and within budget. </li>
+                <li>Established the IS architecture, principles, standards and roadmap. Drove the consolidation of
+                  international networks, domains and systems that delivered a consistent user experience with
+                  enterprise-wide applications and tools.</li>
+                <li>Launched Middle East technology projects that were adopted globally; which included BIM, enterprise
+                  storage cloud, 3D desktop virtualisation, bidding stage-gate review system, project information
+                  management tools, and VoIP.</li>
+              </ul>
+            </section>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                About:
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                WS Atkins Plc is one of the world's leading suppliers of consultancy and related support services with
+                an emphasis on the engineering and other technology-related sectors. The company's operations focus on
+                four primary segments: Property, Transport, Management and Industry, and International. WS Atkins has
+                diversified beyond its traditional engineering consultancy practice to include facilities management
+                services and power generation. WS Atkins operates 125 offices in the United Kingdom and another 50
+                offices worldwide, including nearly 20 in the United States. Altogether, WS Atkins provides services to
+                more than 50 countries in Europe, the Middle East, the Americas, and Asia.
+              </div>
+            </section>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                Technologies:
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                <span class="technology">SharePoint</span>
+                <span class="technology">Intranet</span>
+                <span class="technology">Extranet</span>
+                <span class="technology">ProjectWise</span>
+                <span class="technology">.net</span>
+                <span class="technology">RevIT</span>
+                <span class="technology">Aconex</span>
+                <span class="technology">NewForma</span>
+                <span class="technology">Web Services</span>
+                <span class="technology">CMS</span>
+                <span class="technology">Qlikview</span>
+                <span class="technology">BIM</span>
+                <span class="technology">Progressive Web Apps</span>
+                <span class="technology">Workflow</span>
+                <span class="technology">IoT</span>
+
+              </div>
+            </section>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                Projects:
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                <span class="technology">Doha Metro</span>
+                <span class="technology">Warner Bros. Theme Park</span>
+                <span class="technology">Riyhad Metro</span>
+                <span class="technology">Madinah Metro</span>
+                <span class="technology">Domain Unification</span>
+                <span class="technology">AWS</span>
+                <span class="technology">Firebase</span>
+                <span class="technology">Postgres</span>
+                <span class="technology">React</span>
+                <span class="technology">Alibaba Cloud</span>
+                <span class="technology">Shopify</span>
+              </div>
+            </section>
+          </div>
+          <div>
+            <h3>Digital Transformation Director</h3>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                1999 - 2005
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                Emirates Group, Dubai – UAE.
+              </div>
+            </section>
+            <section class="mb-6">
+              <ul>
+                <li>Responsible for the establishment and implementation of the eVentures Group setting technology
+                  strategy that introduced and drove new disruptive business models and digital channels across the
+                  Emirates Group (Emirates Airline, Cargo, Holidays and Dnata).</li>
+                <li>Drove a partnership with Microsoft that provided the online travel portal for MSN Arabia.</li>
+                <li>Patented an innovative B2B web-service for the booking of hotel rooms, provided real-time
+                  availability via interfaces to the hotel’s property management system (Oracle/Micros Fidelio), and
+                  automated the booking process.</li>
+                <li>Leveraged off international and local commercial insight, which was utilised to formulate innovative
+                  products and impactful customer experiences.</li>
+              </ul>
+            </section>
+            <section class="mb-6">
+              <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
+                About:
+              </div>
+              <div class="lg:inline-block lg:w-8/12 w-full">
+                The Emirates Group is a Dubai-based international aviation holding company headquartered in Dubai,
+                United Arab Emirates. The Emirates Group comprises Dnata, an aviation services company providing ground
+                handling services, and Emirates Airline, the largest airline in the Middle East. Emirates Airlines flies
+                to over 142 destinations across 6 continents, operating a fleet of over 233 wide-bodied aircraft.
+              </div>
+            </section>
+
           </div>
         </div>
         <hr class="mt-8 mb-12" />
-        <div id="projects" class="prose">
+        <div id="Emirates-Projects" class="prose">
           <h2 class="section-headline">Projects</h2>
           <div class="mb-16">
             <h3 id="chrisko-headline">Chrisko.io</h3>
@@ -314,17 +529,17 @@
                 Built with:
               </div>
               <div class="lg:inline-block lg:w-8/12 w-full">
-                <span class="rounded-xl bg-gray-300 px-3">Next.js</span>
-                <span class="rounded-xl bg-gray-300 px-3">CSS</span>
-                <span class="rounded-xl bg-gray-300 px-3">styled-jsx</span>
-                <span class="rounded-xl bg-gray-300 px-3">DynamoDB</span>
-                <span class="rounded-xl bg-gray-300 px-3">Vercel</span>
+                <span class="technology">Next.js</span>
+                <span class="technology">CSS</span>
+                <span class="technology">styled-jsx</span>
+                <span class="technology">DynamoDB</span>
+                <span class="technology">Vercel</span>
               </div>
             </section>
           </div>
         </div>
         <hr class="mt-8 mb-12" />
-        <div id="projects" class="prose">
+        <div id="my-projects" class="prose">
           <h2 class="section-headline">Expand my skills</h2>
           <div class="mb-16">
             <h4 id="expand-knowledge-headline">
@@ -364,6 +579,30 @@
       class="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0">Photo by Jack
       Finnigan</a>
   </footer>
+  <script type="text/javascript" src="vanilla-tilt.js">
+
+  </script>
+  <script type="text/javascript">
+    let main = document.getElementById("wrapper")
+    let sidebar = document.getElementById("sidebar")
+    let profilePicture = document.getElementById("profilePicture")
+
+
+    // main.style = "transform-style: preserve-3d, transform: perspective: 6000;"
+
+    //sidebar.style = "transform: translateZ(300px)"
+    // profilePicture.style="transform: translateZ(803px)"
+
+    VanillaTilt.init(main, {
+      axis: "x",
+      max: 3,
+      speed: 300,
+      perspective: 5000,
+      glare: true,
+    })
+
+  </script>
 </body>
+
 
 </html>

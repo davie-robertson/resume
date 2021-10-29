@@ -4,6 +4,22 @@
 
 .section-headline {
   @apply font-bold sm:text-xl uppercase tracking-widest border-blue-500 border-l-8 pl-2;
+  transform: translateZ(800px);
+}
+
+.technology {
+  @apply rounded-xl whitespace-nowrap bg-gray-300 px-3;
+  transform: translateZ(20px);
+}
+
+.wrapper {
+  transform-style: preserve-3d;
+  transform: perspective(5000px);
+}
+
+.sidebar {
+  transform: translateZ(30px);
+  
 }
 
 progress {
@@ -26,6 +42,7 @@ progress::-webkit-progress-value {
 
 .section-headline {
   color: #1029b9 !important;
+  transform: translateZ(30px);
 }
 
 #chrisko-headline::before {
@@ -40,4 +57,5 @@ progress::-webkit-progress-value {
   background-size: contain;
   margin-right: 12px;
   border-radius: 50%;
+  transform: translateZ(30px);
 }
