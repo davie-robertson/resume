@@ -1,0 +1,2 @@
+npm init @open-wc --destinationPath /home/davidr/development/new-resume --type scaffold --scaffoldType app --features linting testing demoing building --typescript true --tagName new-resume --writeToDisk true --installDependencies npm
+npm i -D tailwindcss@latest postcss@latest autoprefixer@latest @stylelint/postcss-css-in-js@latest postcss-syntax@latest postcss-discard-comments@latest postcss-discard-empty@latest @tailwindcss/typography@latest

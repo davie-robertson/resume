@@ -8,7 +8,7 @@
 }
 
 .technology {
-  @apply rounded-xl whitespace-nowrap bg-gray-300 px-3;
+  @apply rounded-xl whitespace-nowrap bg-gray-300 px-3 no-underline;
   transform: translateZ(20px);
 }
 
@@ -18,8 +18,11 @@
 }
 
 .sidebar {
-  transform: translateZ(30px);
+  transform: translateZ(100px);
   
+}
+a {
+  @apply no-underline;
 }
 
 progress {
